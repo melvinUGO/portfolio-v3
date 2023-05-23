@@ -6,10 +6,10 @@ export default function Portfolio() {
       <div className="center">
         <h2>Portfolio</h2>
         <div className="portfolio-container">
-          {data?.map((item) => {
+          {data?.map((item, index) => {
             const { title, img, url, short_desc, tech, github_url } = item;
             return (
-              <div className="portfolio-item">
+              <div key={index} className="portfolio-item">
                 <article>
                   <img src={item.img} alt="" />
                 </article>
@@ -18,19 +18,29 @@ export default function Portfolio() {
                   <p className="portfolio-desc">{short_desc}</p>
                   <div className="tech">
                     Technologies :{" "}
-                    {tech.split(",").map((item) => (
-                      <p className="tech-item">{item}</p>
+                    {tech.split(",").map((item, index) => (
+                      <p key={index} className="tech-item">
+                        {item}
+                      </p>
                     ))}
                   </div>
                 </div>
                 <div className="portfolio-item-btn-container">
-                  <a href={url} target="_blank" className="portfolio-item-btn">
+                  <a
+                    href={url}
+                    without
+                    rel="noreferrer"
+                    target="_blank"
+                    className="portfolio-item-btn"
+                  >
                     <FaGlobe />
                     <span>Live</span>
                   </a>
                   <a
                     href={github_url}
                     target="_blank"
+                    without
+                    rel="noreferrer"
                     className="portfolio-item-btn"
                   >
                     <FaGithub />

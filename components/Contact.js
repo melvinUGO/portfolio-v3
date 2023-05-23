@@ -23,6 +23,8 @@ export default function Contact() {
             <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z" />
           </svg>
           <a
+            without
+            rel="noreferrer"
             target="_blank"
             href="https://www.google.com/maps/place/Lagos+Island/@6.4535713,3.4217405,13z/data=!3m1!4b1!4m6!3m5!1s0x103bf4cc9b07cf55:0xc4ae10b395418b9b!8m2!3d6.4548791!4d3.4245984!16zL20vMDVrOWN4"
           >
