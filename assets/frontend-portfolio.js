@@ -44,11 +44,11 @@ export const data = [
     tech: "NextJS ,React ,TailwindCSS ,NodeJS ,Express ,MongoDB ,HTML ,CSS",
   },
   {
-    title: "Notes.",
-    url: "https://notes-by-melvin.netlify.app/",
-    github_url: "https://github.com/melvinUGO/Notes.",
+    title: "Kirkwood Properties LTD",
+    url: "https://www.kirkwoodpropertiesng.com/",
+    github_url: "#",
     short_desc:
-      "Notes is a web app that allows users to take down and store notes. The app features a user-friendly interface that makes it easy to create, update, and delete notes. Notes also has a dark mode button, which makes it easy to use the app in low-light conditions.",
+      "Kirkwood Properties is a real estate website with dynamic pages that showcase the company's latest projects. The website is informative and engaging, and it uses clear and concise language, high-quality images, and interactive features.",
     long_desc: [
       {
         desc: "Notes is a web app that allows users to take down and store notes. The app features a user-friendly interface that makes it easy to create, update, and delete notes. Notes also has a dark mode button, which makes it easy to use the app in low-light conditions.Notes is the perfect app for anyone who wants to keep track of their thoughts, ideas, and to-do lists. With its user-friendly interface, dark mode, and variety of features, Notes makes it easy to stay organized and productive.",
@@ -63,8 +63,8 @@ export const data = [
         ],
       },
     ],
-    img: "/img/portfolio/Notes.png",
-    tech: "React ,TailwindCSS ,NodeJS ,Express ,MongoDB ,HTML ,CSS",
+    img: "/img/portfolio/kirkwood.png",
+    tech: "NextJS ,React ,TailwindCSS ,HTML ,CSS",
   },
   {
     title: "Google clone",

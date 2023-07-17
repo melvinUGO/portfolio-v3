@@ -6,7 +6,7 @@ export default function Experience() {
         <div className="timeline">
           <div className="item">
             <div className="date">
-              <span className="year">2022</span>
+              <span className="year">2023</span>
               <span className="arrow"></span>
             </div>
             <div className="separator">
@@ -14,20 +14,17 @@ export default function Experience() {
               <div className="line"></div>
             </div>
             <div className="texts">
-              <h3>Senior Javascript Developer</h3>
-              <h4>Stockholm, Sweden</h4>
+              <h3>Kirkwood Properties</h3>
+              <h4>Lagos, Nigeria</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                eaque est explicabo in officiis reprehenderit sed! A aliquam,
-                animi eos fuga in, ipsum nihil nobis, nostrum officia provident
-                quidem voluptatem. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Aspernatur consectetur ducimus eius error
-                explicabo ipsam laboriosam, magnam non, officia omnis porro quas
-                quasi quibusdam quisquam rem sed similique sunt voluptatibus.
+                I developed a dynamic real estate website with an about page,
+                contact us page, and individual pages for each of the client's
+                mega real estate projects. The website was built using Next JS
+                and TailwindCSS, and it is hosted on Vercel.
               </p>
             </div>
           </div>
-          <div className="item">
+          {/* <div className="item">
             <div className="date">
               <span className="year">2022</span>
               <span className="arrow"></span>
@@ -69,7 +66,7 @@ export default function Experience() {
                 sint sit veniam. Doloremque mollitia nam quae.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
