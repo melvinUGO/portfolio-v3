@@ -18,7 +18,7 @@ export default function Experience() {
               <h4>Lagos, Nigeria</h4>
               <p>
                 I developed a dynamic real estate website with an about page,
-                contact us page, and individual pages for each of the client's
+                contact us page, and individual pages for each of the clients
                 mega real estate projects. The website was built using Next JS
                 and TailwindCSS, and it is hosted on Vercel.
               </p>
